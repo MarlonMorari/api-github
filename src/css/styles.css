@@ -119,6 +119,13 @@ main {
   font-size: 15px;  
   font-weight: 400;
   line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.container .profile-data .info .follows{
+  font-size: 16px;  
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 /* REPOSITORIES */
@@ -146,6 +153,15 @@ main {
 .container .profile-data .repositories ul li a:hover{
   background-color:rgb(54, 0, 104);
   color: #fff
+}
+
+.container .profile-data .events h2{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container .profile-data .events p{
+  margin-bottom: 10px;
 }
 
 .container .profile-data.hide{
